@@ -1,0 +1,17 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  "version": "0.2.0",
+  "configurations": [
+    
+  ]
+}
+  dcc.Dropdown(id='id',
+                options=[
+                    {'label': 'All Sites', 'value': 'ALL'},
+                    {'label': 'site1', 'value': 'site1'},
+                ],
+                value='ALL',
+                placeholder="place holder here",
+                searchable=True
+                ),
